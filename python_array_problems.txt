@@ -1,0 +1,66 @@
+# Problem 1: Find the largest number in an array
+arr = [5, 2, 9, 1, 7]
+largest = max(arr)
+print("Largest number:", largest)
+
+# ---------------------------------------
+
+# Problem 2: Find the smallest number in an array
+arr = [5, 2, 9, 1, 7]
+smallest = min(arr)
+print("Smallest number:", smallest)
+
+# ---------------------------------------
+
+# Problem 3: Calculate the sum of all elements in an array
+arr = [5, 2, 9, 1, 7]
+total = sum(arr)
+print("Sum of elements:", total)
+
+# ---------------------------------------
+
+# Problem 4: Count how many even numbers are in the array
+arr = [5, 2, 9, 1, 7, 8, 10]
+even_count = 0
+for num in arr:
+    if num % 2 == 0:
+        even_count += 1
+print("Even numbers count:", even_count)
+
+# ---------------------------------------
+
+# Problem 5: Search for a specific element in the array
+arr = [5, 2, 9, 1, 7]
+search = 9
+if search in arr:
+    print(f"{search} found in the array.")
+else:
+    print(f"{search} not found in the array.")
+
+# ---------------------------------------
+
+# Problem 6: Reverse the elements of an array
+arr = [5, 2, 9, 1, 7]
+reversed_arr = arr[::-1]
+print("Reversed array:", reversed_arr)
+
+# ---------------------------------------
+
+# Problem 7: Copy one array into another
+arr1 = [5, 2, 9, 1, 7]
+arr2 = arr1.copy()
+print("Copied array:", arr2)
+
+# ---------------------------------------
+
+# Problem 8: Remove duplicate elements from an array
+arr = [5, 2, 9, 2, 1, 5, 7]
+unique_arr = list(set(arr))
+print("Array without duplicates:", unique_arr)
+
+# ---------------------------------------
+
+# Problem 9: Sort the array in ascending order
+arr = [5, 2, 9, 1, 7]
+arr.sort()
+print("Sorted array:", arr)
